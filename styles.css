@@ -55,14 +55,13 @@ body {
 
 .muscle-list {
   
-  border: 1px solid red;
+  //border: 1px solid red;
   width: 60%;
   display: flex;
   gap: 10px;
   justify-content: center;
   margin: auto;
-  margin-bottom: 2%;
-  flex-wrap: wrap;
+  margin-bottom: 5%;
 
 }
 
@@ -84,7 +83,7 @@ body {
   background-repeat: no-repeat;
   font-size: 14px;
   font-family: Anton;
-  
+
   border-radius: 5px;
 }
 
