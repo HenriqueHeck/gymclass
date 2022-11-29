@@ -7,7 +7,7 @@
 
 Projeto construído para auxiliar nos treinos. Tem intuito de mostrar a execução correta da maioria dos exercicios de uma academia!!!
 
-[Clique aqui para acessar](https://HenriqueHeck.github.io/nlw_Explorer/) 🔗
+[Clique aqui para acessar](https://henriqueheck.github.io/gymclass/) 🔗
 
 
 
