@@ -5,7 +5,9 @@
   
   }
 
-
+html{
+  overflow-x: hidden;
+}
 
 
 *body {
@@ -55,35 +57,33 @@ body {
 
 .muscle-list {
   
-  //border: 1px solid red;
-  width: 60%;
+  width: 100%;
   display: flex;
   gap: 10px;
-  justify-content: center;
-  margin: auto;
+  
+  margin: 0;
   margin-bottom: 5%;
-
+  justify-content: center;
 }
 
 @media(max-width: 375px){
   .muscle-list{
     margin-bottom: 8%;
-    width: 95%;
     gap: 2px;
+    
   }
 }
 
 
 .muscle-list li button{
   
-  width: 80px;
-  height: 40px;
+  width: 100%;
   background-color: ;
   background-size: 100px;
   background-repeat: no-repeat;
   font-size: 14px;
   font-family: Anton;
-
+  padding: 2px 5px;
   border-radius: 5px;
 }
 
@@ -94,22 +94,34 @@ body {
     height: 35px;
 
   }
+ 
 }
 
-@media (max-width: 500px){
+@media (min-width: 1024px){
   .muscle-list li button{
-    width: 50px;
-    height: 30px; 
-   
+    font-size: 24px;
+
+  }
+ 
+}
+
+
+
+@media (max-width: 414px){
+  .muscle-list li button{
+    width: 100%;
+    height: auto; 
+  
+    font-size: 12px;
+    
   }
 }
 
+
 @media(max-width: 375px){
   .muscle-list li button {
-    width: 44px;
-    height: 25px;
-    font-size: 12px;
-   
+    
+
   }
 }
 
@@ -239,7 +251,6 @@ body {
 @media(max-width: 1024px){
   .itens-exercices-container p{
     font-size: 14px;
-
   }
 
   @media (max-width: 375px){
@@ -257,10 +268,6 @@ body {
   
 }
 
-.muscle-list li{
-  margin-right: 1%;
-  content-align: center;
-}
 
 .muscle-list img{
   width: 150px;
@@ -271,6 +278,31 @@ body {
 }
 
 
+.container-copyright{
+  width: 95%;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.container-copyright p{
+  color: aliceblue;
+  font-size: 8px;
+  text-align: center;
+}
+
+@media(min-width: 1024px){
+  .container-copyright p {
+    font-size: 18px;
+  }
+}
+
+@media(min-width: 414px){
+  .container-copyright p{
+    font-size: 10px ;
+  }
+} 
 
 
 

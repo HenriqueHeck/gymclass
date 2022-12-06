@@ -1,9 +1,7 @@
-# Help Class 🚀
+# Gym Class 🚀
 
 ![preview](./fundo.png)
 
-
-> Trilha Explorer 
 
 Projeto construído para auxiliar nos treinos. Tem intuito de mostrar a execução correta da maioria dos exercicios de uma academia!!!
 
@@ -15,6 +13,7 @@ Projeto construído para auxiliar nos treinos. Tem intuito de mostrar a execuç�
 
 - HTML 
 - CSS
+-java Script
 - Git e Github
 
 ## ✉ Contato
